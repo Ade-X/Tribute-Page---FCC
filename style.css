@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url(img/polishflag.jpg);
+    background-size: cover;
+}
+
+.main-container {
+    width: 80%;
+    margin-top: 2.14em;
+}
+
+.site-title {
+    font-size: 4em;
+}
+
+.motto {
+    font-size: 2.5em;
+}
+
+.site-title,
+.motto {
+    text-align: center;
+}
+
+.main-header img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+#herbert {
+    padding-left: 10em;
+}
+
+.main-header,
+.main-history,
+.main-pilecki,
+.main-links {
+    font-family: 'Merriweather', serif;
+}
+
+.main-history,
+.main-pilecki,
+.main-links {
+    font-size: 2.5em;
+}
+
+.first p,
+.second .text,
+.third p {
+    color: #000000;
+}
+
+.text,
+.links,
+.wiki-link {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.picture-group,
+.picture-pilecki {
+    width: 100%;
+    padding-top: 5em;
+}
+
+.aside-class {
+    margin-top: 3.57em;
+}
+
+a {
+    color: #562248;
+}
+
+a:hover {
+    font-weight: bolder;
+    text-decoration: none;
+    color: #000000;
+}
+
+.links li {
+    list-style-type: none;
+}
+
+footer {
+    font-size: 1.5em;
+    margin-top: 2em;
+    text-align: center;
+    color: #aaa999;
+    border-top: 2px solid #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
